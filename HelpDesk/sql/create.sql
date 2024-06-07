@@ -34,7 +34,7 @@ CREATE TABLE segnalazione (
 	titolo varchar(255) NOT NULL,
 	descrizione text NOT NULL,
 	stato ENUM('in attesa', 'fallita', 'completata') DEFAULT 'in attesa' NOT NULL,
-	tipo ENUM('Tecnici', 'ATA') NOT NULL,
+	tipo ENUM('tecnico', 'ata') NOT NULL,
 	FOREIGN KEY (utente_id) REFERENCES utente(utente_id),
 	FOREIGN KEY (dispositivo_id) REFERENCES dispositivo(dispositivo_id),
 	FOREIGN KEY (aula_id) REFERENCES aula(aula_id)
