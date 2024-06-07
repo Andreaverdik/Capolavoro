@@ -19,6 +19,7 @@ INSERT INTO utente (stato, password, email, ruolo, nome, cognome, piano) VALUES
 ('attivo', 'password18', 'andrea.sponchiado@itiszuccante.edu.it', 'studente', 'Andrea', 'Sponchiado', NULL),
 ('attivo', 'password19', 'matteo.valerii@itiszuccante.edu.it', 'studente', 'Matteo', 'Valerii', NULL),
 ('attivo', 'password20', 'andrea.verdicchio@itiszuccante.edu.it', 'amministratore', 'Andrea', 'Verdicchio', NULL),
+('attivo', 'password20', 'andreaverdik@gmail.com', 'amministratore', 'Andrea', 'Verdick', NULL),
 ('attivo', 'password21', 'andrea.vernole@itiszuccante.edu.it', 'studente', 'Andrea', 'Vernole', NULL),
 ('attivo', 'password22', 'davide.yeh@itiszuccante.edu.it', 'studente', 'Davide', 'Yeh', NULL),
 ('attivo', 'password1', 'fiorenzo.donofrio@itiszuccante.edu.it', 'tecnico', 'Fiorenzo', 'D Onofrio', 'primo piano'),
