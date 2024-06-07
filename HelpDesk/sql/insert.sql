@@ -1,4 +1,4 @@
-INSERT INTO `utente` (stato, password, email, ruolo, nome, cognome, piano) VALUES
+INSERT INTO utente (stato, password, email, ruolo, nome, cognome, piano) VALUES
 ('attivo', 'password1', 'alexandru.baidoctheodor@itiszuccante.edu.it', 'studente', 'Alexandru Baidoc Theodor', 'Baidoc Theodor', NULL),
 ('attivo', 'password2', 'luca.bussetto@itiszuccante.edu.it', 'studente', 'Luca', 'Busetto', NULL),
 ('attivo', 'password3', 'alex.chenlyseng@itiszuccante.edu.it', 'studente', 'Alex', 'Chen Ly Seng', NULL),
