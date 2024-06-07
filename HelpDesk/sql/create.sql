@@ -40,14 +40,6 @@ CREATE TABLE segnalazione (
 	FOREIGN KEY (aula_id) REFERENCES aula(aula_id)
 );
 
-CREATE TABLE assegnazione (
-	utente_id int,
-	aula_id int,
-	FOREIGN KEY (utente_id) REFERENCES utente(utente_id),
-	FOREIGN KEY (aula_id) REFERENCES aula(aula_id),
-	PRIMARY KEY (utente_id, aula_id)
-);
-
 CREATE TABLE alert (
 	alert_id int AUTO_INCREMENT PRIMARY KEY,
 	utente_id int,
